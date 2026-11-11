@@ -486,4 +486,17 @@
             <axis tag="wght" stylevalue="700"/>
         </font>
     </family>
+
+    <!-- SomethingOS: dot-matrix font. Doto (SIL OFL 1.1) at weight 900,
+         roundness 100. The font file is installed by vendor/somethingos. -->
+    <family customizationType="new-named-family" name="somethingos-dot">
+        <font weight="400" style="normal">Doto-VF.ttf
+            <axis tag="wght" stylevalue="900"/>
+            <axis tag="ROND" stylevalue="100"/>
+        </font>
+        <font weight="900" style="normal">Doto-VF.ttf
+            <axis tag="wght" stylevalue="900"/>
+            <axis tag="ROND" stylevalue="100"/>
+        </font>
+    </family>
 </fonts-modification>
